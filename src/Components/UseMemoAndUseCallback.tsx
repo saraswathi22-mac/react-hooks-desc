@@ -2,7 +2,8 @@ import React from 'react'
 
 const UseMemoAndUseCallback = () => {
   return (
-    <div>
+    <div className="aboutHook">
+      <h1>Use Memo and callback Hook</h1>
         <p>UseMemo and useCallback have the same functionality, the only difference is in their returns. UseMemo returns a value while useCallback returns a function.
 
 UseMemo and useCallback are helpful when dealing with helper functions and expensive calculations. UseMemo and useCallback only returns a new object when the state of your prop changes, otherwise returning a memoized value. These differ from useEffect as it does not increase the number of React renders. Every time useEffect is triggered a new object is created, which is inefficient. UseMemo only modifies the object when the state changes, not when it rerenders.

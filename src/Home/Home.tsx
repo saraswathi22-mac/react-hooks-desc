@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 const Home = () => {
   const navigate = useNavigate();
   return (
-    <button onClick={() => navigate('/react-hooks')}>React Hooks</button>
+    <button className="btn" onClick={() => navigate('/react-hooks')}>React Hooks</button>
   )
 }
 

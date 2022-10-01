@@ -2,7 +2,8 @@ import React from "react";
 
 const UseState = () => {
   return (
-    <div style={{backgroundColor: '#00FFFF'}}>
+    <div className="aboutHook">
+      <h1>Use State Hook</h1>
       <li>The useState hook allows us to use state in our functional components.</li> <li>A
       useState hook takes the initial value of our state as the only argument,
       and it returns an array of two elements.</li> <li>The first element is our state

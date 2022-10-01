@@ -14,4 +14,20 @@ code {
 
 * {
   margin: 2%;
+  background-color: black;
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  color: black; 
+  font-size: 2em;
+  border-radius: 5px;
+}
+
+.aboutHook {
+  color: white;
+  font-size: 2em;
 }

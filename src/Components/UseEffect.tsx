@@ -2,7 +2,8 @@ import React from "react";
 
 const UseEffect = () => {
   return (
-    <div style={{ backgroundColor: "#00FFFF" }}>
+    <div className="aboutHook">
+      <h1>Use Effect Hook</h1>
       <li>
         useEffect() allows function components to have access to the lifecycle
         hooks.
