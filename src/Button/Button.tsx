@@ -9,6 +9,7 @@ const hooks = [
   "useCallback",
   "useMemo",
   "useReducer",
+  "customHooks"
 ];
 
 const Button = () => {
