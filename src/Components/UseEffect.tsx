@@ -5,23 +5,17 @@ const UseEffect = () => {
     <div className="aboutHook">
       <h1>Use Effect Hook</h1>
       <li>
-        useEffect() allows function components to have access to the lifecycle
+        useEffect() allows functional components to have access to the lifecycle
         hooks.
-      </li>{" "}
-      <li>The call accepts a function as argument.</li>{" "}
-      <li>It performs side effects in functional component.</li>{" "}
+      </li>
+      <li>It performs side effects in functional component.</li>
       <li>
         The function runs when the component is first rendered, and on every
         subsequent re-render/update.
-      </li>{" "}
+      </li>
       <li>
-        React first updates the DOM, then calls any function passed to
-        useEffect().
-      </li>{" "}
-      <li>
-        All without blocking the UI rendering even on blocking code, unlike the
-        old componentDidMount and componentDidUpdate, which makes our apps feel
-        faster.
+        useEffect Hook lets you run additional code after React has already
+        updated the DOM.
       </li>
       <li>
         The useEffect Hook takes 2 arguments The first argument is a callback
@@ -34,12 +28,11 @@ const UseEffect = () => {
         else in the component scope.
       </li>
       <li>
-        useEffect Hook lets you run additional code after React has already
-        updated the DOM. Think of the useEffect Hook as a partial replacement
-        for React lifecycle events. The useEffect Hook can replicate the
-        behavior of componentDidMount, componentDidUpdate and
-        componentWillUnmount methods. Ie. you can respond to changes in any
-        component that contains the useEffect Hook.
+        Think of the useEffect Hook as a partial replacement for React lifecycle
+        events. The useEffect Hook can replicate the behavior of
+        componentDidMount, componentDidUpdate and componentWillUnmount methods.
+        Ie. you can respond to changes in any component that contains the
+        useEffect Hook.
       </li>
     </div>
   );
