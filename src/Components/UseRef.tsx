@@ -1,4 +1,5 @@
 import React from "react";
+import img from './images/useRef.jpg'
 
 const UseRef = () => {
   return (
@@ -13,6 +14,7 @@ const UseRef = () => {
         the initial value and returns an object.
       </li>
       <li>The returned object has a special property called current.</li>
+      <img src={img} alt="use ref" className="img" />
       <li>
         useRef also never rerenders, which can help keep track of the total
         keystrokes of a user or the total amount of times a button is clicked.

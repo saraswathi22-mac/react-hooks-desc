@@ -16,7 +16,7 @@ const UseState = () => {
         The first element is our state variable and the second element is a
         function in which we can use and update the value of the state variable.
       </li>
-      <img src={img} alt="" className="img" />
+      <img src={img} alt="use state" className="img" />
       <li>
         You can add as many useState() calls, to create as many state variables
         as you want.

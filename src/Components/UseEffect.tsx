@@ -1,4 +1,5 @@
 import React from "react";
+import img from './images/useEffect.png'
 
 const UseEffect = () => {
   return (
@@ -27,6 +28,7 @@ const UseEffect = () => {
         the default callback behavior and ensure the Hook ignores everything
         else in the component scope.
       </li>
+      <img src={img} alt="use effect" className="img" />
       <li>
         Think of the useEffect Hook as a partial replacement for React lifecycle
         events. The useEffect Hook can replicate the behavior of
