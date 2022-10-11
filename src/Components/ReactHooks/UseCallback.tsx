@@ -1,8 +1,8 @@
 import React from "react";
-import img from "./images/useCallback.jpg";
-import img2 from "./images/useCallbackWhy.jpg";
-import img3 from "./images/useCallbackPurpose.jpg";
-import img4 from "./images/useCallbackPurposeMain.jpg";
+import img from "../../static/images/react_hooks/useCallback.jpg";
+import img2 from "../../static/images/react_hooks/useCallbackWhy.jpg";
+import img3 from "../../static/images/react_hooks/useCallbackPurpose.jpg";
+import img4 from "../../static/images/react_hooks/useCallbackPurposeMain.jpg";
 
 const UseCallback = () => {
   return (

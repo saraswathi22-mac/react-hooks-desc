@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from './images/UseContext1.png'
-import img2 from './images/UseContext2.png'
-import img3 from './images/UseContext3.png'
+import img1 from '../../static/images/react_hooks/UseContext1.png'
+import img2 from '../../static/images/react_hooks/UseContext2.png'
+import img3 from '../../static/images/react_hooks/UseContext3.png'
 
 const UseContext = () => {
   return (

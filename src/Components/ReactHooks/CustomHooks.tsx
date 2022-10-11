@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./images/CustomHooks.png";
+import img from "../../static/images/react_hooks/CustomHooks.png";
 
 const CustomHooks = () => {
   return (

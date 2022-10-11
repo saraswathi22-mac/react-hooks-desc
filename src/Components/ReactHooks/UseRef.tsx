@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./images/useRef.jpg";
+import img from "../../static/images/react_hooks/useRef.jpg";
 
 const UseRef = () => {
   return (

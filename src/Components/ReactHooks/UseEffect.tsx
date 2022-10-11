@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./images/useEffect.png";
+import img from "../../static/images/react_hooks/useEffect.png";
 
 const UseEffect = () => {
   return (

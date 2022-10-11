@@ -1,6 +1,6 @@
 import React from "react";
-import img from "./images/useMemo.jpg";
-import img2 from "./images/useMemoDependencies.jpg";
+import img from "../../static/images/react_hooks/useMemo.jpg";
+import img2 from "../../static/images/react_hooks/useMemoDependencies.jpg";
 
 const UseMemo = () => {
   return (

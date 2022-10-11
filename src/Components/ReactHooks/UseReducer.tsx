@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./images/UseReducer.jpg";
+import img from "../../static/images/react_hooks/UseReducer.jpg";
 
 const UseReducer = () => {
   return (

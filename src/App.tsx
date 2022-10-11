@@ -1,14 +1,14 @@
 import Button from "./Button/Button";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home/Home";
-import UseState from "./Components/UseState";
-import UseEffect from "./Components/UseEffect";
-import UseRef from "./Components/UseRef";
-import UseContext from "./Components/UseContext";
-import UseReducer from "./Components/UseReducer";
-import CustomHooks from "./Components/CustomHooks";
-import UseCallback from "./Components/UseCallback";
-import UseMemo from "./Components/UseMemo";
+import UseState from "./Components/ReactHooks/UseState";
+import UseEffect from "./Components/ReactHooks/UseEffect";
+import UseRef from "./Components/ReactHooks/UseRef";
+import UseContext from "./Components/ReactHooks/UseContext";
+import UseReducer from "./Components/ReactHooks/UseReducer";
+import CustomHooks from "./Components/ReactHooks/CustomHooks";
+import UseCallback from "./Components/ReactHooks/UseCallback";
+import UseMemo from "./Components/ReactHooks/UseMemo";
 
 function App() {
   return (
