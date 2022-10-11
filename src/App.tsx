@@ -7,6 +7,7 @@ import UseRef from "./Components/UseRef";
 import UseContext from "./Components/UseContext";
 import UseReducer from "./Components/UseReducer";
 import CustomHooks from "./Components/CustomHooks";
+import UseCallback from "./Components/UseCallback";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='useEffect' element={<UseEffect />} />
           <Route path='useRef' element={<UseRef />} />
           <Route path='useContext' element={<UseContext />} />
+          <Route path='useCallback' element={<UseCallback />} />
           {/* <Route path='useCallback' element={<UseState />} />
           <Route path='useMemo' element={<UseState />} /> */}
           <Route path='useReducer' element={<UseReducer />} />
