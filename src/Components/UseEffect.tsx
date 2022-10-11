@@ -1,5 +1,5 @@
 import React from "react";
-import img from './images/useEffect.png'
+import img from "./images/useEffect.png";
 
 const UseEffect = () => {
   return (
@@ -29,6 +29,18 @@ const UseEffect = () => {
         else in the component scope.
       </li>
       <img src={img} alt="use effect" className="img" />
+      <h3>Variation of UseEffect</h3>
+      <ul>
+        <li>
+          useEffect without dependencies: it runs with first render and also run
+          on any thing changes.
+        </li>
+        <li>useEffect with empty array: it runs only on first render</li>
+        <li>
+          useEffect with variables: it runs on first render and runs with that
+          variable change.
+        </li>
+      </ul>
       <li>
         Think of the useEffect Hook as a partial replacement for React lifecycle
         events. The useEffect Hook can replicate the behavior of
