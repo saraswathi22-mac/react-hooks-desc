@@ -1,15 +1,38 @@
-import React from 'react'
+import React from "react";
+import img from "./images/CustomHooks.png";
 
 const CustomHooks = () => {
   return (
     <div className="aboutHook">
       <h1>Custom Hooks</h1>
-      Custom hooks are what they sound like… custom hooks. The hooks run at the same time as useState. These functions reload upon a React rerender, triggered by a state change or prop. They have the same purpose as traditional functions, improving code reusability and readability. I used a custom hook to simplify the use of localstorage in my Instagram clone project.
-        <p>When publishing a custom hook to a shared library it is helpful to include the useDebugValue hook. The useDebugValue hook is simply a hook label that is displayed in React Devtools. It can label any React state.
-
-Knowing advanced React hooks is essential for mastering React. UseRef, useImperative and useLayout are primarily used to manipulate the DOM. UseMemo and useCallback are used to reduce the frequency of rerenders, increasing performance. UseTransition, and useDeffered allow for concurrency: better controlling when React renders updated states.</p>
+      <li>
+        Custom Hooks consist of built-in React Hooks or other custom Hooks.
+        Therefore a custom Hook is always a new composition of one or multiple
+        Hooks.
+      </li>
+      <li>
+        If a custom Hook does not use any hooks internally, it's not a custom
+        Hook and shouldn't have the prefix "use".
+      </li>
+      <li>
+        Building your own Hooks lets you extract component logic into reusable
+        functions.
+      </li>
+      <img src={img} alt="custom hooks" className="img" width="40%" />      
+      <h3>Advantages:</h3>
+      <ol>
+        <li>
+          Reusability — we can use the same hook again and again, without the
+          need to write it twice.
+        </li>
+        <li>
+          Clean Code — extracting all the component logic into a hook will
+          provide a cleaner codebase.
+        </li>
+        <li>Maintainability — easier to maintain.</li>
+      </ol>
     </div>
-  )
-}
+  );
+};
 
-export default CustomHooks
+export default CustomHooks;
