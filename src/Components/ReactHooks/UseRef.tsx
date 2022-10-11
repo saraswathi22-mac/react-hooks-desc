@@ -14,7 +14,7 @@ const UseRef = () => {
         the initial value and returns an object.
       </li>
       <li>The returned object has a special property called current.</li>
-      <img src={img} alt="use ref" className="img" />
+      <img src={img} alt="use ref" className="img"  width="60%" />
       <li>
         We use the useRef hook to store the values without triggering the
         re-render of the component.

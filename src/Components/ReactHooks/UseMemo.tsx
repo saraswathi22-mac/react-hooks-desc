@@ -15,7 +15,7 @@ const UseMemo = () => {
         useMemo() is a built-in React hook that accepts 2 arguments — a function
         compute that computes a result and the dependencies array:
       </li>
-      <img src={img} alt="use memo" className="img" />
+      <img src={img} alt="use memo" className="img" width="60%"/>
       <li>
         During initial rendering, useMemo(compute, dependencies) invokes
         compute, memoizes the calculation result, and returns it to the
@@ -36,7 +36,7 @@ const UseMemo = () => {
         indicate these values as dependencies:
       </li>
 
-      <img src={img2} alt="use memo dependencies" className="img" />
+      <img src={img2} alt="use memo dependencies" className="img" width="60%" />
       <li>
         useMemo(() ={">"} computation(a, b), [a, b]) is the hook that lets you
         memoize expensive computations. Given the same [a, b] dependencies, once

@@ -19,7 +19,7 @@ const UseCallback = () => {
         Let's write a function factory() that returns functions that sum
         numbers:
       </li>
-      <img src={img2} alt="use callback why" className="img" />
+      <img src={img2} alt="use callback why" className="img" width="40%" />
       <li>
         sum1 and sum2 are functions that sum two numbers. They've been created
         by the factory() function. The functions sum1 and sum2 share the same
@@ -33,7 +33,7 @@ const UseCallback = () => {
         Different function objects sharing the same code are often created
         inside React components:
       </li>
-      <img src={img3} alt="use callback purpose" className="img" />
+      <img src={img3} alt="use callback purpose" className="img" width="40%" />
       <li>
         handleClick is a different function object on every rendering of
         MyComponent. Inline functions are cheap, the re-creation of functions on
@@ -62,7 +62,7 @@ const UseCallback = () => {
         dependency values deps, the hook returns the same function instance
         between renderings (aka memoization):
       </li>
-      <img src={img4} alt="use callback purpose main" className="img" />
+      <img src={img4} alt="use callback purpose main" className="img" width="40%" />
     </div>
   );
 };

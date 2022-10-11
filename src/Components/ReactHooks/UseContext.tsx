@@ -31,14 +31,14 @@ const UseContext = () => {
         createContext(). Then the children’s prop is passed to the provider, the
         prop contains all the components which can use the new context.
       </li>
-      <img src={img1} alt="" className="img" />
+      <img src={img1} alt="" className="img" width="70%" />
       <li>
         In order to receive the children's prop wrap the components which need
         the context state with the provider component that we just created. In
         this example, the user object is needed throughout the entire index
         context. So, it’s wrapped around the entire app. UseContext2.png
       </li>
-      <img src={img2} alt="" className="img" />
+      <img src={img2} alt="" className="img" width="70%" />
       <li>
         Lastly, the context must be returned through the Context.Provider which
         wraps around children. Any React hooks can be used inside the context
@@ -47,7 +47,7 @@ const UseContext = () => {
         component and then pull the arguments from it, using destructuring. This
         looks similar to the state hook. UseContext3.png
       </li>
-      <img src={img3} alt="" className="img" />
+      <img src={img3} alt="" className="img" width="70%" />
     </div>
   );
 };

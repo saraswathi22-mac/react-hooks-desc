@@ -28,7 +28,7 @@ const UseEffect = () => {
         the default callback behavior and ensure the Hook ignores everything
         else in the component scope.
       </li>
-      <img src={img} alt="use effect" className="img" />
+      <img src={img} alt="use effect" className="img" width="60%" />
       <h3>Variation of UseEffect</h3>
       <ul>
         <li>
