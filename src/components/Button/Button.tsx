@@ -15,17 +15,21 @@ const hooks = [
 const Button = () => {
   const navigate = useNavigate();
   return (
-    <div>
-      <h1 className="h1">React Hooks</h1>
-      {hooks.map((hook: any) => (
-        <button
-          className=""
-          key={hook}
-          onClick={() => navigate(`/react-hooks/${hook}`)}
-        >
-          {hook}
-        </button>
-      ))}
+    <div className="m-20">
+      <div className="text-5xl font-bold text-center font-serif bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-500">
+        React Hooks
+      </div>
+      <div className="flex flex-row justify-center mt-16 text-2xl font-semibold gap-8">
+        {hooks.map((hook: any) => (
+          <button
+            className="btn-primary transition duration-700 ease-in-out"
+            key={hook}
+            onClick={() => navigate(`/react-hooks/${hook}`)}
+          >
+            {hook}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };
