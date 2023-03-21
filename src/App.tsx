@@ -12,22 +12,20 @@ import UseState from "./pages/Hooks/UseState";
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/react-hooks">
-          <Route index element={<Button />} />
-          <Route path="useState" element={<UseState />} />
-          <Route path="useEffect" element={<UseEffect />} />
-          <Route path="useRef" element={<UseRef />} />
-          <Route path="useContext" element={<UseContext />} />
-          <Route path="useCallback" element={<UseCallback />} />
-          <Route path="useMemo" element={<UseMemo />} />
-          <Route path="useReducer" element={<UseReducer />} />
-          <Route path="customHooks" element={<CustomHooks />} />
-        </Route>
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/react-hooks">
+        <Route index element={<Button />} />
+        <Route path="useState" element={<UseState />} />
+        <Route path="useEffect" element={<UseEffect />} />
+        <Route path="useRef" element={<UseRef />} />
+        <Route path="useContext" element={<UseContext />} />
+        <Route path="useCallback" element={<UseCallback />} />
+        <Route path="useMemo" element={<UseMemo />} />
+        <Route path="useReducer" element={<UseReducer />} />
+        <Route path="customHooks" element={<CustomHooks />} />
+      </Route>
+    </Routes>
   );
 }
 
