@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Home = () => {
   const navigate = useNavigate();
   return (
-    <button className="transition duration-700 ease-in-out" onClick={() => navigate("/react-hooks")}>
+    <button className="btn-home" onClick={() => navigate("/react-hooks")}>
       React Hooks
     </button>
   );

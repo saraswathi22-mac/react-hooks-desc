@@ -22,7 +22,7 @@ const Button = () => {
       <div className="flex flex-row justify-center mt-16 text-2xl font-semibold gap-8">
         {hooks.map((hook: any) => (
           <button
-            className="btn-primary transition duration-700 ease-in-out"
+            className="btn-primary"
             key={hook}
             onClick={() => navigate(`/react-hooks/${hook}`)}
           >
