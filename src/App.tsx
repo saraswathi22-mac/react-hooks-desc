@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import Button from "./components/Button/Button";
-import Home from "./pages/Home/Home";
 import CustomHooks from "./pages/Hooks/CustomHooks";
 import UseCallback from "./pages/Hooks/UseCallback";
 import UseContext from "./pages/Hooks/UseContext";
