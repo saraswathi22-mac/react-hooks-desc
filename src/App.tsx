@@ -13,8 +13,7 @@ import UseState from "./pages/Hooks/UseState";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/react-hooks">
+      <Route path="/">
         <Route index element={<Button />} />
         <Route path="useState" element={<UseState />} />
         <Route path="useEffect" element={<UseEffect />} />
