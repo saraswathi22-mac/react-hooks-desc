@@ -24,7 +24,7 @@ const Button = () => {
           <button
             className="btn-primary"
             key={hook}
-            onClick={() => navigate(`/react-hooks/${hook}`)}
+            onClick={() => navigate(`/${hook}`)}
           >
             {hook}
           </button>
