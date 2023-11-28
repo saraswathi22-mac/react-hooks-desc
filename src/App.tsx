@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Button from "./components/Button/Button";
+import ExplainHooks from "./pages/Explain/ExplainHooks";
 import CustomHooks from "./pages/Hooks/CustomHooks";
 import UseCallback from "./pages/Hooks/UseCallback";
 import UseContext from "./pages/Hooks/UseContext";
@@ -13,7 +13,7 @@ function App() {
   return (
     <Routes>
       <Route path="/">
-        <Route index element={<Button />} />
+        <Route index element={<ExplainHooks />} />
         <Route path="useState" element={<UseState />} />
         <Route path="useEffect" element={<UseEffect />} />
         <Route path="useRef" element={<UseRef />} />
