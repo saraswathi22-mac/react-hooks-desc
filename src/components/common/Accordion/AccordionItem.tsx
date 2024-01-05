@@ -10,13 +10,13 @@ const AccordionItem = ({ hiddenText }: any) => {
   };
 
   return (
-    <div>
+    <>
       <button className="accordion__button " onClick={handleToggleVisibility}>
         {hiddenText.label}
         <span className={visibility ? "fas fa-minus" : "fas fa-plus"}></span>
       </button>
       <p className={`accordion__content ${activeStatus}`}>{hiddenText.value}</p>
-    </div>
+    </>
   );
 };
 
