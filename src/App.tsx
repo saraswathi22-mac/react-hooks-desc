@@ -1,30 +1,41 @@
-import { Route, Routes } from "react-router-dom";
-import ExplainHooks from "./pages/Explain/ExplainHooks";
-import CustomHooks from "./pages/Hooks/CustomHooks";
-import UseCallback from "./pages/Hooks/UseCallback";
-import UseContext from "./pages/Hooks/UseContext";
-import UseEffect from "./pages/Hooks/UseEffect";
-import UseMemo from "./pages/Hooks/UseMemo";
-import UseReducer from "./pages/Hooks/UseReducer";
-import UseRef from "./pages/Hooks/UseRef";
-import UseState from "./pages/Hooks/UseState";
+import { MainHeading } from "./components/common/Headings/Headings";
+import What from "./components/Hooks/Describe/What";
+import AdvantagesOfHooks from "./components/Hooks/Describe/Advantages";
+import RulesOfHooks from "./components/Hooks/Describe/RulesOfHooks";
+import TabsList from "./components/Tabs/Tabs";
+import { tabs } from "./components/Hooks/Hooks";
+import Accordion from "./components/common/Accordion/Accordion";
 
-function App() {
+const hiddenTexts = [
+  {
+    id: 1,
+    label: "What are Hooks ?",
+    value: <What />,
+  },
+  {
+    id: 2,
+    label: "Advantages",
+    value: <AdvantagesOfHooks />,
+  },
+  {
+    id: 3,
+    label: "Rules to be followed",
+    value: <RulesOfHooks />,
+  },
+  {
+    id: 4,
+    label: "Types",
+    value: <TabsList tabs={tabs} />,
+  },
+];
+
+const App = () => {
   return (
-    <Routes>
-      <Route path="/">
-        <Route index element={<ExplainHooks />} />
-        <Route path="useState" element={<UseState />} />
-        <Route path="useEffect" element={<UseEffect />} />
-        <Route path="useRef" element={<UseRef />} />
-        <Route path="useContext" element={<UseContext />} />
-        <Route path="useCallback" element={<UseCallback />} />
-        <Route path="useMemo" element={<UseMemo />} />
-        <Route path="useReducer" element={<UseReducer />} />
-        <Route path="customHooks" element={<CustomHooks />} />
-      </Route>
-    </Routes>
+    <div className="m-10 sm:m-20">
+      <MainHeading title="React Hooks" />
+      <Accordion hiddenTexts={hiddenTexts} />
+    </div>
   );
-}
+};
 
 export default App;
