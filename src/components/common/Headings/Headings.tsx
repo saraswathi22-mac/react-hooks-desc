@@ -16,4 +16,8 @@ const HookHeading: React.FC<Title> = ({ title }) => {
   return <h1 className="heading">{title}</h1>;
 };
 
-export { MainHeading, HookHeading };
+const HookSubHeading: React.FC<Title> = ({ title }) => {
+  return <h1 className="sub-heading">{title}</h1>;
+};
+
+export { MainHeading, HookHeading, HookSubHeading };
