@@ -10,7 +10,7 @@
     @apply transition ease-in-out delay-300 m-20 p-2 text-3xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-500 rounded-lg shadow-md font-semibold;
   }
   .heading {
-    @apply text-4xl font-bold text-center pb-10 text-violet-700;
+    @apply text-4xl font-bold text-center pb-10 text-white;
   }
 }
 
