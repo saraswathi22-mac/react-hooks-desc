@@ -6,7 +6,7 @@ interface Title {
 
 const MainHeading: React.FC<Title> = ({ title }) => {
   return (
-    <div className="text-5xl font-bold text-center font-serif bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-500">
+    <div className="text-5xl mb-10 font-bold text-center font-serif bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-500">
       {title}
     </div>
   );
