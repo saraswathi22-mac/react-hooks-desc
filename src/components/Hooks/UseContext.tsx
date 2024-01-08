@@ -40,9 +40,15 @@ const UseContext = () => {
           the arguments from it, using destructuring.
         </li>
         <img src={img3} alt="" className="img m-3" width="60%" />
+        <HookSubHeading title="In Brief" />
+        <li>StateProvider will provide a data layer around our app</li>
+        <li>createContext - preparing data layer</li>
         <li>
-          Every context object comes with a Provider React component that allows
-          consuming components to subscribe to context changes.
+          initialState is what data layer look like when the app is loaded
+        </li>
+        <li>
+          useStateValue - hook which allows us to pull information from the data
+          layer
         </li>
         <HookSubHeading title="Use Cases" />
         <li>Adding dark/light mode functionality</li>

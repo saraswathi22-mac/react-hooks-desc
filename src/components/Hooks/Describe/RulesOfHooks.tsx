@@ -9,6 +9,7 @@ const RulesOfHooks = () => {
         Only call hooks from the react functional component, not in any regular
         javascript function.
       </li>
+      <li>Memoize functions and objects when needed to improve performance.</li>
     </div>
   );
 };
