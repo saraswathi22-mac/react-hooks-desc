@@ -3,7 +3,7 @@ import { HookHeading } from "../common/Headings/Headings";
 
 const UseState = () => {
   return (
-    <div className="">
+    <div>
       <HookHeading title="Use State Hook" />
       <div className="text-2xl">
         <li>

@@ -4,7 +4,7 @@ import PenDown from "../common/PenDown/PenDown";
 
 const UseRef = () => {
   return (
-    <div className="">
+    <div>
       <HookHeading title="Use Ref Hook" />
       <div className="text-2xl">
         <li>

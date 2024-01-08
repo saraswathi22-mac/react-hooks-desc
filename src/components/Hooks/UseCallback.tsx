@@ -5,7 +5,7 @@ import { HookHeading, HookSubHeading } from "../common/Headings/Headings";
 
 const UseCallback = () => {
   return (
-    <div className="">
+    <div>
       <HookHeading title="Use Callback Hook" />
       <div className="text-2xl">
         <li>

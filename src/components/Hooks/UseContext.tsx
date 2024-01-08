@@ -5,7 +5,7 @@ import { HookHeading, HookSubHeading } from "../common/Headings/Headings";
 
 const UseContext = () => {
   return (
-    <div className="">
+    <div>
       <HookHeading title="Use Context Hook (Context API)" />
       <div className="text-2xl">
         <li>

@@ -3,7 +3,7 @@ import { HookHeading, HookSubHeading } from "../common/Headings/Headings";
 
 const UseEffect = () => {
   return (
-    <div className="">
+    <div>
       <HookHeading title="Use Effect Hook" />
       <div className="text-2xl">
         <li>
